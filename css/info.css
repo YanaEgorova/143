@@ -1,0 +1,39 @@
+.info__wrapper   {
+}
+.info {
+   padding: 1rem 0 15rem;
+}
+.info .list {
+   padding-top: 20rem;
+}
+.info .img {
+   max-height: 33rem;
+   object-fit: cover;
+}
+.info .item:not(:last-child) {
+   margin-bottom: 5rem;
+}
+
+@media screen and (min-width: 1024px)  {
+   .info .item {
+      display: flex;
+      justify-content: center;
+   }
+   .info .img {
+      margin: 0;
+      margin-right: 5rem;
+   }
+   .info .text {
+      margin: 0;
+   }
+   .text-block {
+      background-color: var(--second-brand-color);
+      flex-grow: 1;
+      min-height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+   }
+}
+
+

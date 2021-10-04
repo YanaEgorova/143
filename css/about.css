@@ -1,0 +1,19 @@
+.about__wrapper {
+    background-color: var(--third-brand-color);
+}
+.about {
+    padding: 10rem 0;
+}
+.ingredients {
+    text-align: center;
+}
+.about .sub-title, .about .text {
+    color: var(--sub-text-color);
+}
+.about .text.bold {
+   margin-bottom: 1rem;
+}
+.about .item:not(:last-child) {
+    margin-bottom: 5rem;
+}
+@media screen and (min-width: 768px) {}
